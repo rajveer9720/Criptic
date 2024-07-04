@@ -67,17 +67,23 @@ export default function CoinList() {
               ref={sliderEl}
               className="coin-list-scrollbar relative border-b border-gray-200 dark:border-gray-800 flex w-full justify-between overflow-x-auto scroll-smooth text-sm min-[375px]:justify-start min-[375px]:gap-6 xs:mb-0 2xl:gap-10"
             >
+               <TabItem className="whitespace-nowrap capitalize text-gray-600 2xl:uppercase [&>span]:px-0">
+                x3
+              </TabItem>
               <TabItem className="whitespace-nowrap capitalize text-gray-600 2xl:uppercase [&>span]:px-0">
-                Coin list
+                x4
               </TabItem>
               <TabItem className="whitespace-nowrap px-0 capitalize text-gray-600 2xl:uppercase">
-                Leader board
+                xXx
               </TabItem>
               <TabItem className="whitespace-nowrap px-0 capitalize text-gray-600 2xl:uppercase">
-                Hot
+                xGold
               </TabItem>
               <TabItem className="whitespace-nowrap px-0 capitalize text-gray-600 2xl:uppercase">
-                New
+                xQore
+              </TabItem>
+              <TabItem className="whitespace-nowrap px-0 capitalize text-gray-600 2xl:uppercase">
+                maxQore
               </TabItem>
             </Tab.List>
           </div>

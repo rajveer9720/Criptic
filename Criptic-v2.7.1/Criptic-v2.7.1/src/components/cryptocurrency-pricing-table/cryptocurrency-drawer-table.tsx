@@ -6,6 +6,8 @@ import { LongArrowRight } from '@/components/icons/long-arrow-right';
 import Button from '@/components/ui/button';
 import Scrollbar from '@/components/ui/scrollbar';
 import GlobalFilter from '@/components/cryptocurrency-pricing-table/global-filter';
+import HeroSlider from '@/land_page/herosection';
+
 import {
   useTable,
   useResizeColumns,
@@ -56,6 +58,7 @@ function CryptocurrencyDrawerTable({
 
   return (
     <>
+    <HeroSlider />
       <div className="mt-11">
         <div className="w-full xl:w-auto">
           <div className="-mx-0.5 shadow-card dark:[&_.os-scrollbar_.os-scrollbar-track_.os-scrollbar-handle:before]:!bg-white/50">

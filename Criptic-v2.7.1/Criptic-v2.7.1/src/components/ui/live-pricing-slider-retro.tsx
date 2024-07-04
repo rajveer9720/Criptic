@@ -47,6 +47,7 @@ export function LivePricingFeed({
           {icon}
           <h4 className="text-sm font-medium text-gray-900 ltr:ml-3 rtl:mr-3 dark:text-white">
             {name}
+            Testing
           </h4>
         </div>
 

@@ -13,7 +13,7 @@ type Price = {
   value: number;
 };
 
-type LivePriceFeedProps = {
+type HeroSectionProps = {
   id: string;
   name: string;
   symbol: string;
@@ -24,9 +24,10 @@ type LivePriceFeedProps = {
   isChangePositive: boolean;
   isBorder?: boolean;
   prices: Price[];
+  imageURL: string; // HTTP image link
 };
 
-export function LivePricingFeed({
+export function HeroSection({
   id,
   name,
   symbol,
@@ -36,8 +37,8 @@ export function LivePricingFeed({
   change,
   isChangePositive,
   prices,
-  isBorder,
-}: LivePriceFeedProps) {
+  imageURL,
+}: HeroSectionProps) {
   return (
     <div
       className={cn(
@@ -49,7 +50,7 @@ export function LivePricingFeed({
           {icon}
           <h4 className="text-sm font-medium text-gray-900 ltr:ml-3 rtl:mr-3 dark:text-white">
             {name}
-              Testing
+            Testings
           </h4>
         </div>
 
@@ -83,42 +84,12 @@ export function LivePricingFeed({
         </div>
       </div>
 
-      <div
-        className="h-20 w-full overflow-hidden"
-        data-hello={isChangePositive ? '#22c55e' : '#D6455D'}
-      >
-        <ResponsiveContainer width="100%" height="100%">
-          <AreaChart data={prices}>
-            <defs>
-              <linearGradient id={`${name}-${id}`} x1="0" y1="0" x2="0" y2="1">
-                <stop
-                  offset="0%"
-                  stopColor={isChangePositive ? '#22c55e' : '#D6455D'}
-                  stopOpacity={0.5}
-                />
-                <stop
-                  offset="100%"
-                  stopColor={isChangePositive ? '#22c55e' : '#D6455D'}
-                  stopOpacity={0}
-                />
-              </linearGradient>
-            </defs>
-            <Area
-              type="linear"
-              dataKey="value"
-              stroke={isChangePositive ? '#22c55e' : '#D6455D'}
-              strokeWidth={2.5}
-              fill={`url(#${`${name}-${id}`})`}
-              dot={false}
-            />
-          </AreaChart>
-        </ResponsiveContainer>
-      </div>
+      
     </div>
   );
 }
 
-export default function LivePricingSlider({ limits }: { limits: number }) {
+export default function HeroSlider({ limits }: { limits: number }) {
   const breakpoint = useBreakpoint();
 
   const limit = limits ?? 4;
@@ -159,7 +130,7 @@ export default function LivePricingSlider({ limits }: { limits: number }) {
     >
       {priceFeedData.map((item) => (
         <SwiperSlide key={item.id}>
-          <LivePricingFeed {...item} />
+          <HeroSection {...item} imageURL={item.imageURL} />
         </SwiperSlide>
       ))}
     </Swiper>

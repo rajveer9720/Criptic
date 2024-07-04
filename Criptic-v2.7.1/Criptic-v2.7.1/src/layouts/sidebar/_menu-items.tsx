@@ -48,6 +48,7 @@ export const defaultMenuItems = [
         icon: <DiskIcon />,
         href: routes.nftDetails,
       },
+      
     ],
   },
   {
@@ -122,6 +123,11 @@ export const MinimalMenuItems = [
   },
   {
     name: 'Live Pricing',
+    icon: <LivePricing />,
+    href: routes.livePricing,
+  },
+  {
+    name: 'Landing Page',
     icon: <LivePricing />,
     href: routes.livePricing,
   },
