@@ -17,9 +17,9 @@ export default function InvestForm() {
       >
         <div className="flex-grow">
           <div className="grid grid-cols-1 gap-6">
-            <InvestDay />
-            <AmountPerInvestment />
-            <AdvanceSetting />
+            {/* <InvestDay /> */}
+            {/* <AmountPerInvestment /> */}
+            {/* <AdvanceSetting /> */}
           </div>
         </div>
         <Button

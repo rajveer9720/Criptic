@@ -30,6 +30,7 @@ const routes = {
   tradingBotMartingale: '/martingale-bot',
   tradingBotInfinityGrid: '/infinity-grid-bot',
   pages: '/pages',
+  Non: '/non',
 };
 
 export default routes;

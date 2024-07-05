@@ -49,12 +49,12 @@ export const defaultMenuItems = [
   {
     name: 'Marathon',
     icon: <TradingBotIcon />,
-    href: routes.tradingBot,
+    href: routes.Non,
   },
   {
     name: 'Social',
     icon: <TradingBotIcon />,
-    href: routes.tradingBot,
+    href: routes.Non,
   },
   {
     name: 'NFTs',
@@ -173,7 +173,7 @@ export const defaultMenuItems = [
   {
     name: 'Promo&PDFS',
     icon: <TradingBotIcon />,
-    href: routes.tradingBot,
+    href: routes.Non,
   },
 ];
 
@@ -214,12 +214,12 @@ export const MinimalMenuItems = [
   {
     name: 'Marathon',
     icon: <TradingBotIcon />,
-    href: routes.tradingBot,
+    href: routes.Non,
   },
   {
     name: 'Social',
     icon: <TradingBotIcon />,
-    href: routes.tradingBot,
+    href: routes.Non,
   },
   {
     name: 'NFTs',
@@ -338,6 +338,6 @@ export const MinimalMenuItems = [
   {
     name: 'Promo&PDFS',
     icon: <TradingBotIcon />,
-    href: routes.tradingBot,
+    href: routes.Non,
   },
 ];
