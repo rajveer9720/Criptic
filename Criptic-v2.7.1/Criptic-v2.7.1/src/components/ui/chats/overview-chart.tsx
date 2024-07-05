@@ -61,7 +61,7 @@ export default function OverviewChart({ chartWrapperClass }: Props) {
         74.8%
       </h3>
       <p className="mt-2 mb-1 text-xs font-medium text-gray-400 sm:text-sm">
-        Compare to $1,812 last week
+        Total Member
       </p>
       <div className={cn('h-60 w-full', chartWrapperClass)}>
         <ResponsiveContainer width="100%" height="100%">

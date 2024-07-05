@@ -50,11 +50,11 @@ const COLUMNS = [
     maxWidth: 120,
   },
   {
-    Header: () => <div className="ltr:ml-auto rtl:mr-auto">Status</div>,
+    Header: () => <div className="hidden">Status</div>,
     accessor: 'status',
     // @ts-ignore
     Cell: ({ cell: { value } }) => (
-      <div className="ltr:text-right rtl:text-left">{value}</div>
+      <div className="hidden">{value}</div>
     ),
     minWidth: 100,
     maxWidth: 180,
@@ -71,27 +71,8 @@ const COLUMNS = [
     minWidth: 220,
     maxWidth: 280,
   },
-  {
-    Header: () => <div className="ltr:ml-auto rtl:mr-auto">Amount</div>,
-    accessor: 'amount',
-    // @ts-ignore
-    Cell: ({ cell: { value } }) => (
-      <div className="-tracking-[1px] ltr:text-right rtl:text-left">
-        <strong className="mb-0.5 flex justify-end text-base md:mb-1.5 md:text-lg lg:text-base 3xl:text-2xl">
-          {value.balance}
-          <span className="inline-block ltr:ml-1.5 rtl:mr-1.5 md:ltr:ml-2 md:rtl:mr-2">
-            BTC
-          </span>
-        </strong>
-        <span className="text-gray-600 dark:text-gray-400">
-          ${value.usdBalance}
-        </span>
-      </div>
-    ),
-    minWidth: 200,
-    maxWidth: 300,
-  },
 ];
+
 
 export default function TransactionTable() {
   const data = React.useMemo(() => TransactionData, []);
@@ -140,7 +121,7 @@ export default function TransactionTable() {
               {...getTableProps()}
               className="transaction-table w-full border-separate border-0"
             >
-              <thead className="text-sm text-gray-500 dark:text-gray-300">
+              {/* <thead className="text-sm text-gray-500 dark:text-gray-300">
                 {headerGroups.map((headerGroup, idx) => (
                   <tr {...headerGroup.getHeaderGroupProps()} key={idx}>
                     {headerGroup.headers.map((column, idx) => (
@@ -177,7 +158,7 @@ export default function TransactionTable() {
                     ))}
                   </tr>
                 ))}
-              </thead>
+              </thead> */}
               <tbody
                 {...getTableBodyProps()}
                 className="text-xs font-medium text-gray-900 dark:text-white 3xl:text-sm"

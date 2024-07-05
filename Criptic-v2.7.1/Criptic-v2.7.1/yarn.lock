@@ -928,6 +928,13 @@
   resolved "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.5.tgz"
   integrity sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==
 
+"@types/react-slick@^0.23.13":
+  version "0.23.13"
+  resolved "https://registry.npmjs.org/@types/react-slick/-/react-slick-0.23.13.tgz"
+  integrity sha512-bNZfDhe/L8t5OQzIyhrRhBr/61pfBcWaYJoq6UDqFtv5LMwfg4NsVDD2J8N01JqdAdxLjOt66OZEp6PX+dGs/A==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-table@^7.7.18":
   version "7.7.18"
   resolved "https://registry.npmjs.org/@types/react-table/-/react-table-7.7.18.tgz"

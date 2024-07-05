@@ -117,13 +117,104 @@ export default function CoinList() {
             </SimpleBar>
           </TabPanel>
           <TabPanel className="focus:outline-none">
-            <LeaderBoard />
+          <Input
+              placeholder="Search..."
+              autoComplete="off"
+              inputClassName="mb-5 border-[#E2E8F0] !bg-gray-100 dark:!bg-light-dark appearance-none placeholder:!text-[#4B5563] !text-[#111827] dark:!text-white"
+            />
+            <SimpleBar
+              style={{ maxHeight: 450 }}
+              className="-mx-0.5 px-0.5 @container"
+            >
+              <div className="grid grid-cols-1 gap-3 @xs:grid-cols-2 @2xl:grid-cols-3 @6xl:grid-cols-4">
+                {coinCardData.map((item) => (
+                  <CoinCard
+                    key={`coin-card-details-${item.id}`}
+                    details={item}
+                  />
+                ))}
+              </div>
+            </SimpleBar>
           </TabPanel>
           <TabPanel className="focus:outline-none">
-            <HotCoinList />
+          <Input
+              placeholder="Search..."
+              autoComplete="off"
+              inputClassName="mb-5 border-[#E2E8F0] !bg-gray-100 dark:!bg-light-dark appearance-none placeholder:!text-[#4B5563] !text-[#111827] dark:!text-white"
+            />
+            <SimpleBar
+              style={{ maxHeight: 450 }}
+              className="-mx-0.5 px-0.5 @container"
+            >
+              <div className="grid grid-cols-1 gap-3 @xs:grid-cols-2 @2xl:grid-cols-3 @6xl:grid-cols-4">
+                {coinCardData.map((item) => (
+                  <CoinCard
+                    key={`coin-card-details-${item.id}`}
+                    details={item}
+                  />
+                ))}
+              </div>
+            </SimpleBar>
           </TabPanel>
           <TabPanel className="focus:outline-none">
-            <NewCoinList />
+          <Input
+              placeholder="Search..."
+              autoComplete="off"
+              inputClassName="mb-5 border-[#E2E8F0] !bg-gray-100 dark:!bg-light-dark appearance-none placeholder:!text-[#4B5563] !text-[#111827] dark:!text-white"
+            />
+            <SimpleBar
+              style={{ maxHeight: 450 }}
+              className="-mx-0.5 px-0.5 @container"
+            >
+              <div className="grid grid-cols-1 gap-3 @xs:grid-cols-2 @2xl:grid-cols-3 @6xl:grid-cols-4">
+                {coinCardData.map((item) => (
+                  <CoinCard
+                    key={`coin-card-details-${item.id}`}
+                    details={item}
+                  />
+                ))}
+              </div>
+            </SimpleBar>
+          </TabPanel>
+          <TabPanel className="focus:outline-none">
+          <Input
+              placeholder="Search..."
+              autoComplete="off"
+              inputClassName="mb-5 border-[#E2E8F0] !bg-gray-100 dark:!bg-light-dark appearance-none placeholder:!text-[#4B5563] !text-[#111827] dark:!text-white"
+            />
+            <SimpleBar
+              style={{ maxHeight: 450 }}
+              className="-mx-0.5 px-0.5 @container"
+            >
+              <div className="grid grid-cols-1 gap-3 @xs:grid-cols-2 @2xl:grid-cols-3 @6xl:grid-cols-4">
+                {coinCardData.map((item) => (
+                  <CoinCard
+                    key={`coin-card-details-${item.id}`}
+                    details={item}
+                  />
+                ))}
+              </div>
+            </SimpleBar>
+          </TabPanel>
+          <TabPanel className="focus:outline-none">
+          <Input
+              placeholder="Search..."
+              autoComplete="off"
+              inputClassName="mb-5 border-[#E2E8F0] !bg-gray-100 dark:!bg-light-dark appearance-none placeholder:!text-[#4B5563] !text-[#111827] dark:!text-white"
+            />
+            <SimpleBar
+              style={{ maxHeight: 450 }}
+              className="-mx-0.5 px-0.5 @container"
+            >
+              <div className="grid grid-cols-1 gap-3 @xs:grid-cols-2 @2xl:grid-cols-3 @6xl:grid-cols-4">
+                {coinCardData.map((item) => (
+                  <CoinCard
+                    key={`coin-card-details-${item.id}`}
+                    details={item}
+                  />
+                ))}
+              </div>
+            </SimpleBar>
           </TabPanel>
         </TabPanels>
       </Tab.Group>

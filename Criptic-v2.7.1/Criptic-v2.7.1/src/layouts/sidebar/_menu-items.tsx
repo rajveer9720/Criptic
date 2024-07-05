@@ -19,12 +19,40 @@ export const defaultMenuItems = [
     href: routes.home,
   },
   {
-    name: 'Live Pricing',
+    name: 'Team',
     icon: <LivePricing />,
     href: routes.livePricing,
+    dropdownItems: [
+      {
+        name: 'Partners',
+        icon: <CompassIcon />,
+        href: routes.search,
+      },
+      {
+        name: 'Links',
+        icon: <PlusCircle />,
+        href: routes.createNft,
+      },
+      {
+        name: 'Stats',
+        icon: <DiskIcon />,
+        href: routes.nftDetails,
+      },
+      
+    ],
   },
   {
-    name: 'Trading Bot',
+    name: 'Programs',
+    icon: <TradingBotIcon />,
+    href: routes.tradingBot,
+  },
+  {
+    name: 'Marathon',
+    icon: <TradingBotIcon />,
+    href: routes.tradingBot,
+  },
+  {
+    name: 'Social',
     icon: <TradingBotIcon />,
     href: routes.tradingBot,
   },
@@ -51,6 +79,35 @@ export const defaultMenuItems = [
       
     ],
   },
+  {
+    name: 'Information',
+    icon: <CompassIcon />,
+    href: routes.search,
+    dropdownItems: [
+      {
+        name: 'INstruction',
+        icon: <CompassIcon />,
+        href: routes.search,
+      },
+      {
+        name: 'Caloultor',
+        icon: <PlusCircle />,
+        href: routes.createNft,
+      },
+      {
+        name: 'smart tools',
+        icon: <DiskIcon />,
+        href: routes.nftDetails,
+      },
+      {
+        name: 'ideas',
+        icon: <DiskIcon />,
+        href: routes.nftDetails,
+      },
+      
+    ],
+  },
+
   {
     name: 'Farm',
     icon: <FarmIcon />,
@@ -113,6 +170,11 @@ export const defaultMenuItems = [
       },
     ],
   },
+  {
+    name: 'Promo&PDFS',
+    icon: <TradingBotIcon />,
+    href: routes.tradingBot,
+  },
 ];
 
 export const MinimalMenuItems = [
@@ -122,17 +184,40 @@ export const MinimalMenuItems = [
     href: routes.home,
   },
   {
-    name: 'Live Pricing',
+    name: 'Team',
     icon: <LivePricing />,
     href: routes.livePricing,
+    dropdownItems: [
+      {
+        name: 'Partners',
+        icon: <CompassIcon />,
+        href: routes.search,
+      },
+      {
+        name: 'Links',
+        icon: <PlusCircle />,
+        href: routes.createNft,
+      },
+      {
+        name: 'Stats',
+        icon: <DiskIcon />,
+        href: routes.nftDetails,
+      },
+      
+    ],
   },
   {
-    name: 'Landing Page',
-    icon: <LivePricing />,
-    href: routes.livePricing,
+    name: 'Programs',
+    icon: <TradingBotIcon />,
+    href: routes.tradingBot,
   },
   {
-    name: 'Trading Bot',
+    name: 'Marathon',
+    icon: <TradingBotIcon />,
+    href: routes.tradingBot,
+  },
+  {
+    name: 'Social',
     icon: <TradingBotIcon />,
     href: routes.tradingBot,
   },
@@ -156,8 +241,38 @@ export const MinimalMenuItems = [
         icon: <DiskIcon />,
         href: routes.nftDetails,
       },
+      
     ],
   },
+  {
+    name: 'Information',
+    icon: <CompassIcon />,
+    href: routes.search,
+    dropdownItems: [
+      {
+        name: 'INstruction',
+        icon: <CompassIcon />,
+        href: routes.search,
+      },
+      {
+        name: 'Caloultor',
+        icon: <PlusCircle />,
+        href: routes.createNft,
+      },
+      {
+        name: 'smart tools',
+        icon: <DiskIcon />,
+        href: routes.nftDetails,
+      },
+      {
+        name: 'ideas',
+        icon: <DiskIcon />,
+        href: routes.nftDetails,
+      },
+      
+    ],
+  },
+ 
   {
     name: 'Farm',
     icon: <FarmIcon />,
@@ -169,62 +284,60 @@ export const MinimalMenuItems = [
     href: routes.swap,
   },
   {
-    name: 'Pages',
+    name: 'Liquidity',
+    icon: <PoolIcon />,
+    href: routes.liquidity,
+  },
+  {
+    name: 'Profile',
+    icon: <ProfileIcon />,
+    href: routes.profile,
+  },
+  {
+    name: 'Vote',
     icon: <VoteIcon />,
-    href: routes.pages,
+    href: routes.vote,
     dropdownItems: [
       {
-        name: 'Profile',
-        icon: <ProfileIcon />,
-        href: routes.profile,
-      },
-      {
-        name: 'Liquidity',
-        icon: <PoolIcon />,
-        href: routes.liquidity,
-      },
-      {
-        name: 'Vote',
-        icon: <VoteIcon />,
+        name: 'Explore',
         href: routes.vote,
-        dropdownItems: [
-          {
-            name: 'Explore',
-            href: routes.vote,
-          },
-          {
-            name: 'Vote with criptic',
-            href: routes.proposals,
-          },
-          {
-            name: 'Create proposal',
-            href: routes.createProposal,
-          },
-        ],
       },
       {
-        name: 'Authentication',
-        icon: <LockIcon className="w-[18px]" />,
-        href: routes.signIn,
-        dropdownItems: [
-          {
-            name: 'Sign in',
-            href: routes.signIn,
-          },
-          {
-            name: 'Sign up',
-            href: routes.signUp,
-          },
-          {
-            name: 'Reset pin',
-            href: routes.resetPin,
-          },
-          {
-            name: 'Forget password',
-            href: routes.forgetPassword,
-          },
-        ],
+        name: 'Vote with criptic',
+        href: routes.proposals,
+      },
+      {
+        name: 'Create proposal',
+        href: routes.createProposal,
       },
     ],
+  },
+  {
+    name: 'Authentication',
+    icon: <LockIcon className="w-[18px]" />,
+    href: routes.signIn,
+    dropdownItems: [
+      {
+        name: 'Sign in',
+        href: routes.signIn,
+      },
+      {
+        name: 'Sign up',
+        href: routes.signUp,
+      },
+      {
+        name: 'Reset pin',
+        href: routes.resetPin,
+      },
+      {
+        name: 'Forget password',
+        href: routes.forgetPassword,
+      },
+    ],
+  },
+  {
+    name: 'Promo&PDFS',
+    icon: <TradingBotIcon />,
+    href: routes.tradingBot,
   },
 ];
