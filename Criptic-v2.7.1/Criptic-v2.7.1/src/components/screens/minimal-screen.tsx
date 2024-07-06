@@ -30,18 +30,20 @@ const topPoolsLimit = (breakpoint: string) => {
 export default function MinimalScreen() {
   const [limit, setLimit] = useState(4);
   const breakpoint = useBreakpoint();
+  const backgroundColor = '#1a202c'; // Example background color
+
   useEffect(() => {
     setLimit(topPoolsLimit(breakpoint));
   }, [breakpoint]);
   return (
     <>
       <div className="">
-      <div className="relative w-full h-96 bg-cover bg-center" style={{ backgroundImage: `url('/path/to/your/image.jpg')` }}>
+      <div className="relative w-full h-96 bg-cover bg-center rounded-xl bg-blue-500" >
   {/* Optional overlay */}
   <div className="absolute inset-0 bg-black opacity-50"></div>
   
   {/* Content inside the banner */}
-  <div className="absolute inset-0 flex items-center justify-center">
+  <div className="absolute inset-0 flex items-center justify-center  rounded-xl bg-blue-500">
     <div className="text-white text-center">
       <h1 className="text-4xl lg:text-6xl font-bold mb-4">Your Banner Title</h1>
       <p className="text-lg lg:text-2xl">Your banner subtitle or call to action</p>

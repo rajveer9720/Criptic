@@ -37,16 +37,17 @@ const ImageCarousel: React.FC = () => {
   };
 
   return (
-    <div className="container mx-auto py-4">
+    <div className="container mx-auto py-4 rounded-xl">
       {/* Container with height set to 20% of viewport height */}
-      <div className="relative w-full h-1/5">
+      <div className="relative w-full h-1/5 rounded-xl">
         <Slider {...settings}>
           {images.map((image, index) => (
-            <div key={index} className="relative h-full">
+            <div key={index} className="relative h-full rounded-xl">
               <img
                 src={image}
                 alt={`Slide ${index + 1}`}
-                className="w-full h-[20rem] object-cover"
+                className="w-full h-full object-cover rounded-xl"
+                style={{ maxHeight: '100%' }}
               />
             </div>
           ))}
