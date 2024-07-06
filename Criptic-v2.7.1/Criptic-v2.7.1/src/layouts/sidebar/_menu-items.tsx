@@ -278,40 +278,7 @@ export const MinimalMenuItems = [
     icon: <FarmIcon />,
     href: routes.farms,
   },
-  {
-    name: 'Swap',
-    icon: <ExchangeIcon />,
-    href: routes.swap,
-  },
-  {
-    name: 'Liquidity',
-    icon: <PoolIcon />,
-    href: routes.liquidity,
-  },
-  {
-    name: 'Profile',
-    icon: <ProfileIcon />,
-    href: routes.profile,
-  },
-  {
-    name: 'Vote',
-    icon: <VoteIcon />,
-    href: routes.vote,
-    dropdownItems: [
-      {
-        name: 'Explore',
-        href: routes.vote,
-      },
-      {
-        name: 'Vote with criptic',
-        href: routes.proposals,
-      },
-      {
-        name: 'Create proposal',
-        href: routes.createProposal,
-      },
-    ],
-  },
+ 
   {
     name: 'Authentication',
     icon: <LockIcon className="w-[18px]" />,
