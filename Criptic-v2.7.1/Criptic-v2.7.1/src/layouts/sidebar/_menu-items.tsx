@@ -85,9 +85,9 @@ export const defaultMenuItems = [
     href: routes.search,
     dropdownItems: [
       {
-        name: 'INstruction',
+        name: 'Instruction',
         icon: <CompassIcon />,
-        href: routes.search,
+        href: routes.Instruction,
       },
       {
         name: 'Caloultor',
@@ -250,9 +250,9 @@ export const MinimalMenuItems = [
     href: routes.search,
     dropdownItems: [
       {
-        name: 'INstruction',
+        name: 'Instruction',
         icon: <CompassIcon />,
-        href: routes.search,
+        href: routes.Instruction,
       },
       {
         name: 'Caloultor',

@@ -1,3 +1,5 @@
+import Instruction from "@/components/instruction/instruction";
+
 const routes = {
   home: '/',
   minimal: '/minimal',
@@ -31,6 +33,9 @@ const routes = {
   tradingBotInfinityGrid: '/infinity-grid-bot',
   pages: '/pages',
   Non: '/non',
+  Test: '/test',
+  Instruction: '/instruction',
+
 };
 
 export default routes;
