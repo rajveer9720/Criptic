@@ -244,40 +244,6 @@ export const MinimalMenuItems = [
       
     ],
   },
-  {
-    name: 'Information',
-    icon: <CompassIcon />,
-    href: routes.search,
-    dropdownItems: [
-      {
-        name: 'Instruction',
-        icon: <CompassIcon />,
-        href: routes.Instruction,
-      },
-      {
-        name: 'Caloultor',
-        icon: <PlusCircle />,
-        href: routes.createNft,
-      },
-      {
-        name: 'smart tools',
-        icon: <DiskIcon />,
-        href: routes.nftDetails,
-      },
-      {
-        name: 'ideas',
-        icon: <DiskIcon />,
-        href: routes.nftDetails,
-      },
-      
-    ],
-  },
- 
-  {
-    name: 'Farm',
-    icon: <FarmIcon />,
-    href: routes.farms,
-  },
  
   {
     name: 'Authentication',
