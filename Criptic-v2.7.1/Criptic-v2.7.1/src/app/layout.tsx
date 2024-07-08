@@ -8,6 +8,7 @@ import ModalsContainer from '@/components/modal-views/container';
 import DrawersContainer from '@/components/drawer-views/container';
 import SettingsButton from '@/components/settings/settings-button';
 import SettingsDrawer from '@/components/settings/settings-drawer';
+import LandingPage from '@/components/landingpage/landingpage';
 // base css file
 import 'overlayscrollbars/overlayscrollbars.css';
 import 'swiper/css';
@@ -55,6 +56,7 @@ export default function RootLayout({
             </WagmiConfig>
           </ThemeProvider>
         </QueryClientProvider>
+        <LandingPage />
       </body>
     </html>
   );

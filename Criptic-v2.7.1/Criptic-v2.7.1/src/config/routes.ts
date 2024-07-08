@@ -1,4 +1,5 @@
 import Instruction from "@/components/instruction/instruction";
+import LandingPage from "@/components/landingpage/landingpage";
 
 const routes = {
   home: '/',
@@ -43,6 +44,7 @@ const routes = {
   Marathon: '/marathon',
   Links: '/links',
   Stats: '/stats',
+  LandingPage: '/landingpage',
 };
 
 export default routes;
