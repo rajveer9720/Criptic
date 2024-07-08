@@ -31,12 +31,12 @@ export const defaultMenuItems = [
       {
         name: 'Links',
         icon: <PlusCircle />,
-        href: routes.createNft,
+        href: routes.Links,
       },
       {
         name: 'Stats',
         icon: <DiskIcon />,
-        href: routes.nftDetails,
+        href: routes.Stats,
       },
       
     ],
@@ -49,12 +49,12 @@ export const defaultMenuItems = [
   {
     name: 'Marathon',
     icon: <TradingBotIcon />,
-    href: routes.Non,
+    href: routes.Marathon,
   },
   {
     name: 'Social',
     icon: <TradingBotIcon />,
-    href: routes.Non,
+    href: routes.Social,
   },
   {
     name: 'NFTs',
@@ -92,17 +92,17 @@ export const defaultMenuItems = [
       {
         name: 'Caloultor',
         icon: <PlusCircle />,
-        href: routes.createNft,
+        href: routes.Calculator,
       },
       {
         name: 'smart tools',
         icon: <DiskIcon />,
-        href: routes.nftDetails,
+        href: routes.SmartTool,
       },
       {
         name: 'ideas',
         icon: <DiskIcon />,
-        href: routes.nftDetails,
+        href: routes.Ideas,
       },
       
     ],
@@ -173,7 +173,7 @@ export const defaultMenuItems = [
   {
     name: 'Promo&PDFS',
     icon: <TradingBotIcon />,
-    href: routes.Non,
+    href: routes.PromoPDFS,
   },
 ];
 

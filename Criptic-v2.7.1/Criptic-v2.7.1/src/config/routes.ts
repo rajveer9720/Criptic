@@ -35,7 +35,14 @@ const routes = {
   Non: '/non',
   Test: '/test',
   Instruction: '/instruction',
-
+  Calculator: '/calculator',
+  SmartTool: '/smarttool',
+  Ideas: '/ideas',
+  PromoPDFS: '/promopdfs',
+  Social: '/social',
+  Marathon: '/marathon',
+  Links: '/links',
+  Stats: '/stats',
 };
 
 export default routes;

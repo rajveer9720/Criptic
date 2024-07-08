@@ -47,7 +47,7 @@ export default function CreateNFTRetro() {
       <div className="mx-auto w-full pt-8 sm:pt-12 lg:px-8 xl:px-10 2xl:px-0">
         <div className="flex items-center justify-between">
           <h2 className="text-lg font-medium uppercase tracking-wider text-gray-900 dark:text-white sm:text-2xl">
-            Create New Item
+            Create New Items-
           </h2>
           <Preview />
         </div>
