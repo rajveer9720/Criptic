@@ -45,6 +45,7 @@ const routes = {
   Links: '/links',
   Stats: '/stats',
   LandingPage: '/landingpage',
+  homeminimal: '/minimal',
 };
 
 export default routes;

@@ -75,7 +75,7 @@ export default function ModalContainer() {
   }, [pathname, searchParams]);
 
   return (
-    <Transition appear show={isOpen} as={Fragment}>
+    <Transition appear show ={isOpen} as={Fragment}>
       <Dialog
         as="div"
         className="fixed inset-0 z-50 h-full w-full overflow-y-auto overflow-x-hidden p-4 text-center sm:p-6 lg:p-8 xl:p-10 3xl:p-12"
