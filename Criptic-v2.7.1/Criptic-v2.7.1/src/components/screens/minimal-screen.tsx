@@ -38,6 +38,12 @@ export default function MinimalScreen() {
   useEffect(() => {
     setLimit(topPoolsLimit(breakpoint));
   }, [breakpoint]);
+
+   
+  const handleRegisterBUSD = () => {
+    window.location.href = 'https://criptic-kzgz-git-main-somil-merugawars-projects.vercel.app/retro'; // Replace with your desired URL
+  };
+
   return (
     <>
       <div className="">
@@ -51,7 +57,7 @@ export default function MinimalScreen() {
           <h1 className="text-2xl lg:text-3xl font-bold mb-4">Your Banner Title</h1>
           <p className="text-lg lg:text-1xl mb-4">Your banner subtitle or call to action</p>
           <div className="space-x-4">
-            <button className="bg-black hover:bg-black-700 text-white py-1 px-2 rounded">Contact Now</button>
+            <button className="bg-black hover:bg-black-700 text-white py-1 px-2 rounded" onClick={handleRegisterBUSD} >Go TO Dashboard</button>
             <button className="bg-grey-500 hover:bg-grey-700 text-white py-1 px-2 rounded">Watch Tutorial</button>
           </div>
         </div>
