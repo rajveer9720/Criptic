@@ -9,6 +9,7 @@ const RegistrationSection: React.FC<RegistrationSectionProps> = ({ onClose }) =>
   const handleRegisterBUSD = () => {
     window.location.href = 'https://criptic-kzgz-git-main-somil-merugawars-projects.vercel.app/authentication/sign-up'; // Replace with your desired URL
   };
+  
   return (
     <div className="m-1000 fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50">
       <div className="m-100 bg-gray-900 text-white p-8 rounded-lg max-w-screen-lg w-full mx-4 md:mx-auto text-center relative">
