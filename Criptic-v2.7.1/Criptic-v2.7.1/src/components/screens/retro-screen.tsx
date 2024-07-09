@@ -9,16 +9,16 @@ export default function RetroScreen() {
   return (
     <>
       <div className="retro-container">
-        <div>
+        {/* <div>
           <ComparisonChart />
-        </div>
-        <div className="mt-7">
-          <PriceFeedSlider
-            priceFeeds={priceFeedData}
-            limit={3}
-            gridClassName="2xl:grid-cols-3 2xl:gap-4"
-          />
-        </div>
+        </div> */}
+          {/* <div className="mt-7">
+            <PriceFeedSlider
+              priceFeeds={priceFeedData}
+              limit={3}
+              gridClassName="2xl:grid-cols-3 2xl:gap-4"
+            />
+          </div> */}
         <div className="mt-7">
           <TransactionTable />
         </div>

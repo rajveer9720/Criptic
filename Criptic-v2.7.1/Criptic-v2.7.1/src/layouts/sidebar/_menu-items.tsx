@@ -26,7 +26,7 @@ export const defaultMenuItems = [
       {
         name: 'Partners',
         icon: <CompassIcon />,
-        href: routes.search,
+        href: routes.Parteners,
       },
       {
         name: 'Links',

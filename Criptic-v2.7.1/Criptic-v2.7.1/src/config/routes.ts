@@ -46,6 +46,7 @@ const routes = {
   Stats: '/stats',
   LandingPage: '/landingpage',
   homeminimal: '/minimal',
+  Parteners: '/parteners',
 };
 
 export default routes;

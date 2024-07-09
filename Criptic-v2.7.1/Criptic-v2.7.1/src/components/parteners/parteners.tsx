@@ -184,7 +184,7 @@ const COLUMNS = [
   },
 ];
 
-export default function StatsComponent() {
+export default function Parteners() {
   const data = React.useMemo(() => transactions, []);
   const columns = React.useMemo(() => COLUMNS, []);
 
@@ -220,7 +220,7 @@ export default function StatsComponent() {
       <div className="rounded-tl-lg rounded-tr-lg bg-white px-4 pt-6 dark:bg-light-dark md:px-8 md:pt-8">
         <div className="flex flex-col items-center justify-between border-b border-dashed border-gray-200 pb-5 dark:border-gray-700 md:flex-row">
         <h2 className="mb-3 shrink-0 text-lg font-medium uppercase text-black dark:text-green sm:text-xl md:mb-0 md:text-2xl bg-grey-500 text-white p-2 rounded-lg shadow-lg">
-  #2839743
+  Partners
 </h2>
 
         </div>
