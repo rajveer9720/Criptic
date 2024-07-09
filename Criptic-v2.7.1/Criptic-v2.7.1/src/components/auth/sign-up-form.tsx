@@ -17,7 +17,9 @@ export default function SignUpForm() {
     e.preventDefault();
     console.log(e);
   }
-
+  const handleRegisterBUSD = () => {
+    window.location.href = 'https://criptic-kzgz-git-main-somil-merugawars-projects.vercel.app/retro'; // Replace with your desired URL
+  };
   return (
     <form noValidate onSubmit={handleSubmit} className="grid grid-cols-1 gap-4">
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-3">
@@ -75,6 +77,7 @@ export default function SignUpForm() {
       />
       <Button
         type="submit"
+        onClick={handleRegisterBUSD}
         className="mt-5 rounded-lg !text-sm uppercase tracking-[0.04em]"
       >
         sign up
