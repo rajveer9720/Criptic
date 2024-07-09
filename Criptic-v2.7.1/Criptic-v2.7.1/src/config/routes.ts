@@ -47,6 +47,7 @@ const routes = {
   LandingPage: '/landingpage',
   homeminimal: '/minimal',
   Parteners: '/parteners',
+  NFTS: '/nfts',
 };
 
 export default routes;
