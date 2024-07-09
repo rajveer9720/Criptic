@@ -7,7 +7,7 @@ interface RegistrationSectionProps {
 const RegistrationSection: React.FC<RegistrationSectionProps> = ({ onClose }) => {
   
   const handleRegisterBUSD = () => {
-    window.location.href = 'https://criptic-kzgz-3519nx6t1-somil-merugawars-projects.vercel.app/authentication/sign-up'; // Replace with your desired URL
+    window.location.href = 'https://criptic-kzgz-git-main-somil-merugawars-projects.vercel.app/authentication/sign-up'; // Replace with your desired URL
   };
   return (
     <div className="m-1000 fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50">
