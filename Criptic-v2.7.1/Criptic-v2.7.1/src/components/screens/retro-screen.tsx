@@ -1,5 +1,5 @@
 import TransactionTable from '@/components/transaction/transaction-table';
-
+import Program from '@/components/program/program';
 //images
 import PriceFeedSlider from '@/components/ui/live-price-feed';
 import { priceFeedData } from '@/data/static/price-feed-retro';
@@ -19,6 +19,10 @@ export default function RetroScreen() {
               gridClassName="2xl:grid-cols-3 2xl:gap-4"
             />
           </div> */}
+
+<div className="min-h-screen bg-gray-900 flex items-center justify-center p-4">
+      <Program />
+      </div>
         <div className="mt-7">
           <TransactionTable />
         </div>
