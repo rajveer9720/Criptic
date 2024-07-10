@@ -102,9 +102,9 @@ function ThemeSwitcher() {
         onChange={setTheme}
         className="grid grid-cols-2 gap-5 "
       >
-        <RadioGroup.Option value="light">
+        <RadioGroup.Option value="dark">
           {({ checked }) => (
-            <SwitcherButton title={'Light'} checked={checked}>
+            <SwitcherButton title={'Dark'} checked={checked}>
               <Sun />
             </SwitcherButton>
           )}

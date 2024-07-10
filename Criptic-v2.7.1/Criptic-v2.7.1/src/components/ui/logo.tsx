@@ -33,7 +33,7 @@ export default function Logo({ className }: LogoPropTypes) {
             <Image src={darkLogo} alt="Criptic" height={24} priority />
           )}
           {!isDarkMode && (
-            <Image src={lightLogo} alt="Criptic" height={24} priority />
+            <Image src={darkLogo} alt="Criptic" height={24} priority />
           )}
         </span>
       </AnchorLink>

@@ -15,7 +15,7 @@ const Logo: React.FC<React.SVGAttributes<{}>> = (props) => {
           <Image src={darkLogo} alt="Criptic" priority width={28} />
         )}
         {isMounted && !isDarkMode && (
-          <Image src={lightLogo} alt="Criptic" priority width={28} />
+          <Image src={darkLogo} alt="Criptic" priority width={28} />
         )}
       </span>
     </div>

@@ -39,7 +39,7 @@ const NotFoundPage = () => {
       <div className="flex max-w-full flex-col items-center justify-center text-center">
         <div className="relative w-52 max-w-full sm:w-[400px] xl:w-[450px] 3xl:w-[500px]">
           {isMounted && !isDarkMode && (
-            <Image src={ErrorLightImage} alt="404 Error" />
+            <Image src={ErrorDarkImage} alt="404 Error" />
           )}
           {isMounted && isDarkMode && (
             <Image src={ErrorDarkImage} alt="404 Error" />
