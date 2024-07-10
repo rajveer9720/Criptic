@@ -184,99 +184,99 @@ export const defaultMenuItems = [
 ];
 
 export const MinimalMenuItems = [
-  {
-    name: 'Home',
-    icon: <HomeIcon />,
-    href: routes.home,
-  },
-  {
-    name: 'Team',
-    icon: <LivePricing />,
-    href: routes.livePricing,
-    dropdownItems: [
-      {
-        name: 'Partners',
-        icon: <CompassIcon />,
-        href: routes.search,
-      },
-      {
-        name: 'Links',
-        icon: <PlusCircle />,
-        href: routes.createNft,
-      },
-      {
-        name: 'Stats',
-        icon: <DiskIcon />,
-        href: routes.nftDetails,
-      },
+  // {
+  //   name: 'Home',
+  //   icon: <HomeIcon />,
+  //   href: routes.home,
+  // },
+  // {
+  //   name: 'Team',
+  //   icon: <LivePricing />,
+  //   href: routes.livePricing,
+  //   dropdownItems: [
+  //     {
+  //       name: 'Partners',
+  //       icon: <CompassIcon />,
+  //       href: routes.Parteners,
+  //     },
+  //     {
+  //       name: 'Links',
+  //       icon: <PlusCircle />,
+  //       href: routes.createNft,
+  //     },
+  //     {
+  //       name: 'Stats',
+  //       icon: <DiskIcon />,
+  //       href: routes.Stats,
+  //     },
       
-    ],
-  },
-  {
-    name: 'Programs',
-    icon: <TradingBotIcon />,
-    href: routes.tradingBot,
-  },
-  {
-    name: 'Marathon',
-    icon: <TradingBotIcon />,
-    href: routes.Non,
-  },
-  {
-    name: 'Social',
-    icon: <TradingBotIcon />,
-    href: routes.Non,
-  },
-  {
-    name: 'NFTs',
-    icon: <CompassIcon />,
-    href: routes.search,
-    dropdownItems: [
-      {
-        name: 'Explore NFTs',
-        icon: <CompassIcon />,
-        href: routes.search,
-      },
-      {
-        name: 'Create NFT',
-        icon: <PlusCircle />,
-        href: routes.createNft,
-      },
-      {
-        name: 'NFT Details',
-        icon: <DiskIcon />,
-        href: routes.nftDetails,
-      },
+  //   ],
+  // },
+  // {
+  //   name: 'Programs',
+  //   icon: <TradingBotIcon />,
+  //   href: routes.tradingBot,
+  // },
+  // {
+  //   name: 'Marathon',
+  //   icon: <TradingBotIcon />,
+  //   href: routes.Non,
+  // },
+  // {
+  //   name: 'Social',
+  //   icon: <TradingBotIcon />,
+  //   href: routes.Non,
+  // },
+  // {
+  //   name: 'NFTs',
+  //   icon: <CompassIcon />,
+  //   href: routes.search,
+  //   dropdownItems: [
+  //     {
+  //       name: 'Explore NFTs',
+  //       icon: <CompassIcon />,
+  //       href: routes.search,
+  //     },
+  //     {
+  //       name: 'Create NFT',
+  //       icon: <PlusCircle />,
+  //       href: routes.createNft,
+  //     },
+  //     {
+  //       name: 'NFT Details',
+  //       icon: <DiskIcon />,
+  //       href: routes.nftDetails,
+  //     },
       
-    ],
-  },
+  //   ],
+  // },
  
-  {
-    name: 'Authentication',
-    icon: <LockIcon className="w-[18px]" />,
-    href: routes.signIn,
-    dropdownItems: [
-      {
-        name: 'Sign in',
-        href: routes.signIn,
-      },
-      {
-        name: 'Sign up',
-        href: routes.signUp,
-      },
-      {
-        name: 'Reset pin',
-        href: routes.resetPin,
-      },
-      {
-        name: 'Forget password',
-        href: routes.forgetPassword,
-      },
-    ],
-  },
-  {
-    name: 'Promo&PDFS',
-    icon: <TradingBotIcon />,
-    href: routes.Non,
-  },
+  // {
+  //   name: 'Authentication',
+  //   icon: <LockIcon className="w-[18px]" />,
+  //   href: routes.signIn,
+  //   dropdownItems: [
+  //     {
+  //       name: 'Sign in',
+  //       href: routes.signIn,
+  //     },
+  //     {
+  //       name: 'Sign up',
+  //       href: routes.signUp,
+  //     },
+  //     {
+  //       name: 'Reset pin',
+  //       href: routes.resetPin,
+  //     },
+  //     {
+  //       name: 'Forget password',
+  //       href: routes.forgetPassword,
+  //     },
+  //   ],
+  // },
+  // {
+  //   name: 'Promo&PDFS',
+  //   icon: <TradingBotIcon />,
+  //   href: routes.Non,
+  // },
 ];

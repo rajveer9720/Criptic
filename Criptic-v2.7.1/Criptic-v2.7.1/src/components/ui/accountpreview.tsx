@@ -16,6 +16,9 @@ const AccountPreview: React.FC = () => {
     // Handle demo action
     console.log('Demo clicked');
   };
+  const handleRegisterBUSD = () => {
+    window.location.href = 'https://criptic-kzgz-git-main-somil-merugawars-projects.vercel.app/retro'; // Replace with your desired URL
+  };
 
   return (
     <div className=" mt-5 items-center rounded-lg  bg-gray-100  p-5  dark:bg-light-dark text-white p-8 rounded-md w-full  mx-auto">
@@ -33,7 +36,7 @@ const AccountPreview: React.FC = () => {
             className="w-full p-3 bg-gray-800 text-white rounded-l-md focus:outline-none"
           />
           <button
-            onClick={handlePreviewClick}
+          onClick={handleRegisterBUSD}
             className="p-3 bg-blue-600 text-white rounded-r-md hover:bg-blue-700 focus:outline-none"
           >
             Preview

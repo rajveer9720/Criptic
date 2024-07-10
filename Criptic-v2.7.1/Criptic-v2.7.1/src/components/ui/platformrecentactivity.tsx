@@ -14,7 +14,9 @@ const PlatformRecentActivity: React.FC = () => {
     { id: '1709744', action: '+5 BUSD in x4', time: '1 hour' },
     { id: 'new', action: 'New user joined', userId: '1768041', time: '1 hour' },
   ];
-
+  const handleRegisterBUSD = () => {
+    window.location.href = 'https://criptic-kzgz-git-main-somil-merugawars-projects.vercel.app/retro'; // Replace with your desired URL
+  };
   return (
     <div className="bg-gray-900 text-white p-8 rounded-md w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 h-full">
       <div className="col-span-2 h-full flex flex-col">
@@ -29,7 +31,7 @@ const PlatformRecentActivity: React.FC = () => {
                 <div className="ml-4">
                   {activity.id !== 'new' ? (
                     <div>
-                      <span className="text-blue-500">{`ID ${activity.id}`}</span> {activity.action}
+                     <a onClick={handleRegisterBUSD}> <span className="text-blue-500">{`ID ${activity.id}`}</span></a> {activity.action}
                     </div>
                   ) : (
                     <div>
