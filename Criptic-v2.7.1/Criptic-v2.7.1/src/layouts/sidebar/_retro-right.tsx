@@ -18,7 +18,7 @@ export default function Sidebar({ className }: { className?: string }) {
       )}
     >
       <div className="absolute right-0 top-0 z-20 h-[75px] w-full bg-sidebar-body dark:bg-dark md:block xl:hidden" />
-      <Scrollbar style={{ height: 'calc(100% + 20px)' }}>
+      {/* <Scrollbar style={{ height: 'calc(100% + 20px)' }}>
         <div className="relative z-20 pb-5">
           <div className="mx-5 my-16 flex h-full flex-col justify-between overflow-x-hidden rounded-lg bg-transparent sm:mx-6 sm:flex-row lg:mx-0 lg:flex-col lg:p-6 xl:my-0 2xl:p-8">
             <div className="w-full sm:w-[48%] lg:w-full">
@@ -47,7 +47,7 @@ export default function Sidebar({ className }: { className?: string }) {
             </div>
           </div>
         </div>
-      </Scrollbar>
+      </Scrollbar> */}
     </aside>
   );
 }

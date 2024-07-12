@@ -28,11 +28,11 @@ export const defaultMenuItems = [
         icon: <CompassIcon />,
         href: routes.Parteners,
       },
-      {
-        name: 'Links',
-        icon: <PlusCircle />,
-        href: routes.Links,
-      },
+      // {
+      //   name: 'Links',
+      //   icon: <PlusCircle />,
+      //   href: routes.Links,
+      // },
       {
         name: 'Stats',
         icon: <DiskIcon />,
@@ -46,16 +46,16 @@ export const defaultMenuItems = [
   //   icon: <TradingBotIcon />,
   //   href: routes.tradingBot,
   // },
-  {
-    name: 'Marathon',
-    icon: <TradingBotIcon />,
-    href: routes.Marathon,
-  },
-  {
-    name: 'Social',
-    icon: <TradingBotIcon />,
-    href: routes.Social,
-  },
+  // {
+  //   name: 'Marathon',
+  //   icon: <TradingBotIcon />,
+  //   href: routes.Marathon,
+  // },
+  // {
+  //   name: 'Social',
+  //   icon: <TradingBotIcon />,
+  //   href: routes.Social,
+  // },
 
   {
     name: 'NFTS',

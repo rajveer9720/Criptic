@@ -5,10 +5,10 @@ import React, { useState } from 'react';
 const programs = [
   { name: 'x3', partners: 0, perCycle: '0 BUSD', color: 'bg-main-blue' },
   { name: 'x4', partners: 0, perCycle: '0 BUSD', color: 'bg-purple-500' },
-  { name: 'xXx', partners: 14, perCycle: '580%', color: 'bg-pink-500' },
-  { name: 'xGold', partners: 30, perCycle: '1020%', color: 'bg-orange-500' },
-  { name: 'xQore', partners: 12, perCycle: '500%', color: 'bg-teal-500' },
-  { name: 'maxQore', partners: 39, perCycle: '860%', color: 'bg-green-500' },
+  // { name: 'xXx', partners: 14, perCycle: '580%', color: 'bg-pink-500' },
+  // { name: 'xGold', partners: 30, perCycle: '1020%', color: 'bg-orange-500' },
+  // { name: 'xQore', partners: 12, perCycle: '500%', color: 'bg-teal-500' },
+  // { name: 'maxQore', partners: 39, perCycle: '860%', color: 'bg-green-500' },
 ];
 
 const Program = () => {
