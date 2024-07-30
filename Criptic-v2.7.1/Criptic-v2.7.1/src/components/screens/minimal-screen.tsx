@@ -52,7 +52,13 @@ export default function MinimalScreen() {
   return (
     <>
       <div className="">
-      <div className="relative w-5/6  mx-auto h-60 bg-cover bg-center rounded-xl"   >
+      <div className="relative w-5/6  mx-auto h-60 bg-cover bg-center rounded-xl"    style={{
+          backgroundImage: `url(${BusdBanner.src})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          height: '30vh',
+          backgroundRepeat: 'no-repeat',
+        }}>
       {/* Optional overlay */}
       <div className="absolute inset-0 bg-black opacity-50 rounded-xl"></div>
 
