@@ -47,7 +47,7 @@ export default function MinimalScreen() {
   return (
     <>
       <div className="">
-      <div className="relative w-full h-40 bg-cover bg-center rounded-xl bg-blue-500">
+      <div className="relative  ml-4 mr-4 h-40 bg-cover bg-center rounded-xl bg-blue-500">
       {/* Optional overlay */}
       <div className="absolute inset-0 bg-black opacity-50 rounded-xl"></div>
 

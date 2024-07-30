@@ -1,12 +1,14 @@
 import React from 'react';
+import Image from '@/components/ui/image';
 
+import darkLogo from '@/assets/images/logo-white.svg';
 const Footer: React.FC = () => {
     return (
         <footer className="bg-gray-900 text-white py-10">
             <div className="container mx-auto px-4">
                 <div className="flex flex-col gap-1 md:flex-row justify-between items-start mb-10">
                     <div className="flex flex-col space-y-2 mb-4 md:mb-0">
-                        <img src="logo.png" alt="Forsage Logo" className="w-32 mb-2" />
+                    <Image src={darkLogo} alt="Criptic" height={45} priority />
                         <p className="text-sm">The world's first 100% decentralized matrix platform</p>
                     </div>
                     <div className="flex grid-cols-1 md:grid-cols-2 gap-4 md:gap-1 text-sm">
