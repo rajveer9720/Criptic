@@ -46,11 +46,11 @@ const Footer: React.FC = () => {
                         </div>
                     </div>
                 </div>
-                <div className="bg-gray-800 rounded-lg p-4 mt-10">
-                    <div className="flex flex-col md:flex-row items-center justify-between">
-                        <div className="text-left text-sm mb-4 md:mb-0">
+                <div className="bg-gray-800 rounded-lg p-4 mt-10 "  >
+                    <div className="flex  md:flex-row items-center justify-center">
+                        <div className="text-center text-sm mb-4 md:mb-0">
                             <p>© 2024 All Rights Reserved</p>
-                            <a href="#" className="hover:text-gray-400">Disclaimer</a>
+                            <a href="#" className="hover:text-gray-400"> All DIGITAL LIVE</a>
                         </div>
                         <div className="flex space-x-4">
                             <a href="#" className="hover:text-gray-400"><i className="fab fa-telegram-plane"></i></a>
