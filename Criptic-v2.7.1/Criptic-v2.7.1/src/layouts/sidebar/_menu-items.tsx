@@ -153,29 +153,29 @@ export const defaultMenuItems = [
   //     },
   //   ],
   // },
-  {
-    name: 'Authentication',
-    icon: <LockIcon className="w-[18px]" />,
-    href: routes.signIn,
-    dropdownItems: [
-      {
-        name: 'Sign in',
-        href: routes.signIn,
-      },
-      {
-        name: 'Sign up',
-        href: routes.signUp,
-      },
-      {
-        name: 'Reset pin',
-        href: routes.resetPin,
-      },
-      {
-        name: 'Forget password',
-        href: routes.forgetPassword,
-      },
-    ],
-  },
+  // {
+  //   name: 'Authentication',
+  //   icon: <LockIcon className="w-[18px]" />,
+  //   href: routes.signIn,
+  //   dropdownItems: [
+  //     {
+  //       name: 'Sign in',
+  //       href: routes.signIn,
+  //     },
+  //     {
+  //       name: 'Sign up',
+  //       href: routes.signUp,
+  //     },
+  //     {
+  //       name: 'Reset pin',
+  //       href: routes.resetPin,
+  //     },
+  //     {
+  //       name: 'Forget password',
+  //       href: routes.forgetPassword,
+  //     },
+  //   ],
+  // },
   {
     name: 'Promo&PDFS',
     icon: <TradingBotIcon />,

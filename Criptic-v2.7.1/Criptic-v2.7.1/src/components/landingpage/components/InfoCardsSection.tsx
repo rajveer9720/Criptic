@@ -8,7 +8,7 @@ const InfoCardsSection: React.FC = () => {
       backgroundImage: `url(${BannerForth.src})`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
-      height: '100vh',
+      height: '60vh',
     }}>
       <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-1 gap-8">
         <div className=" rounded-lg shadow-lg">
