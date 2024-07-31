@@ -96,7 +96,7 @@ export const defaultMenuItems = [
         href: routes.Instruction,
       },
       {
-        name: 'Caloultor',
+        name: 'Calculator',
         icon: <PlusCircle />,
         href: routes.Calculator,
       },

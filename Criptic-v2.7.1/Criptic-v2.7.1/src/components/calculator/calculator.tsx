@@ -11,9 +11,6 @@ interface Stage {
 const stages: Stage[] = [
   { name: 'x3', costMultiplier: 1, resultMultiplier: 3 },
   { name: 'x4', costMultiplier: 1, resultMultiplier: 4 },
-  { name: 'xXx', costMultiplier: 2, resultMultiplier: 3 },
-  { name: 'xGold', costMultiplier: 2, resultMultiplier: 4 },
-  { name: 'xQore', costMultiplier: 3, resultMultiplier: 4 },
 ];
 
 const slotPrices = [5, 10, 20, 40, 80, 160, 320, 640, 1280, 2560, 5120, 10240];
