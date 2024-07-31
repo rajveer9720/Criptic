@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDiscord, faTelegram, faYoutube, faTwitter } from '@fortawesome/free-brands-svg-icons';
 // Import next/image if using Next.js
 import Image from 'next/image';
-import OfficeBot from '@/assets/images/bgcover.jpg';
+import OfficeBot from '@/assets/images/BannerBG.png';
 
 const SupportPage: React.FC = () => {
   return (
@@ -20,13 +20,13 @@ const SupportPage: React.FC = () => {
       >
         <div className="absolute inset-0 bg-black opacity-50 rounded-lg"></div> {/* Overlay */}
         <div className="relative z-10 flex flex-col justify-center items-center h-full w-full">
-          <h2 className="text-lg sm:text-2xl font-bold mb-2">Official Notify Bot for busd.forsage.io users</h2>
+          <h2 className="text-lg sm:text-2xl font-bold mb-2">Official Notify Bot for busd.RonX.io users</h2>
           <p className="text-xs sm:text-sm">Here you can get notifications about all the events in your account.</p>
         </div>
       </div>
       <div className="mb-8 mt-2 text-center">
         <h2 className="text-lg sm:text-xl font-bold mb-2">Need help with using the platform?</h2>
-        <p className="text-xs sm:text-sm">Get qualified support from Forsage experts via online chat</p>
+        <p className="text-xs sm:text-sm">Get qualified support from RonX experts via online chat</p>
         <button className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded mt-4">Contact support</button>
       </div>
       <div className="text-xs text-gray-400 mt-auto">

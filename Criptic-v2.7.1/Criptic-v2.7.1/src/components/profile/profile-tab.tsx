@@ -39,7 +39,7 @@ export default function ProfileTab() {
               <div className="w-full">
                 <div className="profile-link mt-2 p-14 bg-[#406aff] bg-opacity-60 rounded-xl">
                   <h4 className="mb-6">Personal link</h4>
-                  <a href="https://forsage.io/b/pyffvf" target="_blank" rel="noopener noreferrer" className="text-white hover:underline text-2xl">
+                  <a href="https://RonX.io/b/pyffvf" target="_blank" rel="noopener noreferrer" className="text-white hover:underline text-2xl">
                     Link:
                   </a>
                 </div>
