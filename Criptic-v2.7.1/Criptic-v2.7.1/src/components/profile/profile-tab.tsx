@@ -37,7 +37,7 @@ export default function ProfileTab() {
           <div className="profile-section p-6 bg-gray-900 text-white rounded-lg">
             <div className="profile-header flex items-center mb-6">
               <div className="w-full">
-                <div className="profile-link mt-2 p-14 bg-[#406aff] bg-opacity-60 rounded-xl">
+                <div className="profile-link mt-2 p-4 bg-[#406aff] bg-opacity-60 rounded-xl">
                   <h4 className="mb-6">Personal link</h4>
                   <a href="https://RonX.io/b/pyffvf" target="_blank" rel="noopener noreferrer" className="text-white hover:underline text-2xl">
                     Link:
