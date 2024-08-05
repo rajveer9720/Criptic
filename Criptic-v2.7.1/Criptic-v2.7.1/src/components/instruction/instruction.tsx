@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image'; // Importing Image component from Next.js for better optimization
-import Ronxvideo from '../../assets/video/Ronx.mp4'
+
 
 
 // Import the image directly
@@ -89,14 +89,14 @@ const Instruction: React.FC = () => {
           <div className="flex">
             <div className="flex mt-5 items-center sm:items-start flex-col">
 
-              <video controls
+              {/* <video controls
                 className="bg-black w-full mb-7.5 h-300px sm:h-180px"
                 src={Ronxvideo}
                 autoPlay
                 muted
                 loop  
                 title="RonX Marketing Video"
-              ></video>
+              ></video> */}
               <div className="mt-5 space-y-2.5">
                 <span>
                   <b className="inline text-white font-medium">
