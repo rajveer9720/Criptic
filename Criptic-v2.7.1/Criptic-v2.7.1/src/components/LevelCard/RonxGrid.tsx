@@ -11,7 +11,7 @@ interface LevelCardProps {
 
 const LevelCard: React.FC<LevelCardProps> = ({ level, cost, partners, cycles }) => {
   const handleClick = () => {
-    const url = new URL('http://localhost:3000/retro/levelslider');
+    const url = new URL('http://criptic-kzgz-git-main-somil-merugawars-projects.vercel.app/retro/levelslider');
     url.searchParams.append('level', level.toString());
     url.searchParams.append('cost', cost.toString());
     url.searchParams.append('partners', partners.toString());

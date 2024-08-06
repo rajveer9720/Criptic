@@ -20,7 +20,7 @@ const Program: React.FC = () => {
   };
 
   const handleRegisterBUSD = () => {
-    window.location.href = 'http://localhost:3000/retro/program'; // Replace with your desired URL
+    window.location.href = 'http://criptic-kzgz-git-main-somil-merugawars-projects.vercel.app/retro/program'; // Replace with your desired URL
   };
 
   const handleGridItemClick = (item: number) => {
