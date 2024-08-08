@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image'; // Importing Image component from Next.js for better optimization
-import registrationPrev from '@/assets/images/program.jpeg';
+import registrationPrev from '@/assets/images/program.jpg';
 import registration from '@/assets/images/registration.png';
 import x3_preview from '@/assets/images/x3 previw.png';
 import x4_prpgram from '@/assets/images/x4_program.png';
