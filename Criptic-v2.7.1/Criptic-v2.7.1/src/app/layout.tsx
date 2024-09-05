@@ -23,8 +23,8 @@ const fira_code = Fira_Code({
 });
 
 export const metadata = {
-  title: 'Criptic',
-  description: 'Criptic - React Next Web3 NFT Crypto Dashboard Template',
+  title: 'Ronx',
+  description: 'Ronx - The best multi - level Marketing Applicattion',
 };
 
 export default function RootLayout({
